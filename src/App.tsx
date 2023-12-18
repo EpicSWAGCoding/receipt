@@ -3,6 +3,7 @@ import { Box, Button, Paper, TextField, createTheme } from '@mui/material'
 import { MouseEventHandler, useState } from 'react'
 import axios from 'axios'
 import { Link } from 'react-router-dom'
+import './index.css'
 
 function App() {
   const [id, setId] = useState('')
